@@ -53,10 +53,78 @@
 // )
 
 //Declarative
-ReactDOM.render(<h1 className="header">Hello, React!</h1>, document.getElementById("root"))
+// ReactDOM.render(<h1 className="header">Hello, React!</h1>, document.getElementById("root"))
 
 // Imperative
 // const h1 = document.createElement("h1");
 // h1.textContent = "Hello, React!";
 // h1.className = "header";
 // document.getElementById("root").append(h1)
+// console.log(h1)
+
+/*
+{
+    "type": "h1",
+    "key": null,
+    "ref": null,
+    "props": {
+        "classname": "header",
+        "children": "This is JSX"
+    },
+    "_owner": null,
+    "_store": {}
+}
+*/
+
+//JSX
+// const page = (
+//     <div>
+//         <h1 classname="header">This is JSX</h1>
+//         <p>Example paragraph</p>
+//     </div>
+// )
+
+// const navbar = (
+//     <nav>
+//         <h1>Website</h1>
+//         <ul>
+//             <li>Pricing</li>
+//             <li>About</li>
+//             <li>Contact</li>
+//         </ul>
+//     </nav>
+// )
+
+// ReactDOM.render(navbar, document.getElementById("root"))
+
+// const page = (
+//     <div>
+//         <h1>This is my page!</h1>
+//         <h3>How to see the code:</h3>
+//         <ol>
+//             <li>Write the React code</li>
+//             <li>Save the code</li>
+//             <li>See the beautiful front-end design</li>
+//         </ol>
+//     </div>
+// )
+
+// document.getElementById("root").append(page)
+
+// ReactDOM.render(page, document.getElementById("root"))
+
+const page = (
+    <div>
+        <img src="./react-logo.png" width="40px" />
+        <h1>Fun facts about React</h1>
+        <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K starts on Github</li>
+            <li>Is maintained by Meta</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </div>
+)
+
+ReactDOM.render(page, document.getElementById("root"))
