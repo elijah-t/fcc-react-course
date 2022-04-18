@@ -1,0 +1,129 @@
+body {
+    background-color: #23252C;
+}
+
+.app-container {
+    background: #1A1B21;
+    width: 317px;
+    margin: auto;
+    margin-top: 45px;
+
+    border-radius: 0px 0px 10px 10px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-photo {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+}
+
+.info-name {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    margin-bottom: 6px;
+}
+
+.info-title {
+
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+
+    color: #F3BF99;
+}
+
+.info-website {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+
+.email-button, .linkedin-button {
+    width: 115px;
+    height: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    border-radius: 6px;
+}
+
+.email-button {
+    color: #374151;
+    background: #FFFFFF;
+    margin-right: 17px;
+}
+
+.linkedin-button {
+    color: #FFFFFF;
+    background: #5093E2;
+}
+
+.email-icon, .linkedin-icon {
+    margin-right: 8px;
+}
+
+.about-title, .interest-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+
+.about-text, .interest-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #DCDCDC
+}
+
+.about-container, .interest-container {
+    margin: 30px;
+}
+
+.footer-container {
+    background-color: #161619;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0px 0px 10px 10px;
+}
+
+.facebook-logo, .instagram-logo, .github-logo {
+    width: 25px;
+    height: 25px;
+
+    padding: 20px;
+}
