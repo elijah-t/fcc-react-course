@@ -1,0 +1,35 @@
+.app-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.joke-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    background-color: greenyellow;
+
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-radius: 10px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700 bold;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}

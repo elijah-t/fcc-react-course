@@ -2,8 +2,9 @@ import React from 'react'
 import phoneIcon from "../images/phone-icon.png"
 import mailIcon from "../images/mail-icon.png"
 
+// Challenge: fix the bug, now that we've destructured the props object
 export default function Contact(props) {
-    /**
+    /** props.
      * Challenge: Fix the code below to use the `props`
      * object values in place of the hardcoded values below
      */
