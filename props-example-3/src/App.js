@@ -1,10 +1,25 @@
 import React from 'react'
 import Joke from './components/Joke'
+import jokesData from "./jokesData"
 
 export default function App(){
+    const jokeElements = jokesData.map(joke => 
+    <Joke setup={joke.setup} punchline={joke.punchline} />)
+    // const colors = [
+    //     <h3>Red</h3>, 
+    //     <h3>Orange</h3>, 
+    //     <h3>Yellow</h3>, 
+    //     <h3>Green</h3>, 
+    //     <h3>Blue</h3>, 
+    //     <h3>Indigo</h3>, 
+    //     <h3>Violet</h3> 
+    // ]
+
     return (
         <div className="app-container">
-            <Joke 
+            {jokeElements}
+            {/* {colors} */}
+            {/* <Joke 
                 setup="I got my daughter a fridge for her birthday."
                 punchline="I can't wait to see her face light up when she opens it."
                 isPun={false}
@@ -36,7 +51,7 @@ export default function App(){
                 punchline="It’s hard to explain puns to kleptomaniacs because 
                 they always take things literally."
                 isPun={true}
-            />
+            /> */}
         </div>
     )
 }
